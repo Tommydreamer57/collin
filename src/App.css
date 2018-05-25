@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F19743;
+  height: 100vh;
+}
+
+img {
+  height: 35vh;
+  filter: contrast(200%);
+  margin: 100px;
+  transition: all 0.2s;
+}
