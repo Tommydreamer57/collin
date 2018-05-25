@@ -8,7 +8,8 @@
 }
 
 img {
-  height: 35vh;
+  height: calc(80vh - 100px);
+  /* height: calc(80vh - 1000 * (100vw - 769px) / 2048); */
   filter: contrast(200%);
   margin: 100px;
   transition: all 0.2s;

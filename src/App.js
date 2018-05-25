@@ -41,13 +41,13 @@ class App extends Component {
     this.setState({
       yellow: getRandom(),
     });
-    setTimeout(this.resetYellow, Math.random() * 500);
+    setTimeout(this.resetYellow, Math.random() * 750);
   }
   resetBlue() {
     this.setState({
       blue: getRandom()
     });
-    setTimeout(this.resetBlue, Math.random() * 500);
+    setTimeout(this.resetBlue, Math.random() * 750);
   }
   render() {
     return (

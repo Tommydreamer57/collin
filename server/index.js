@@ -10,3 +10,4 @@ app.use(bodyParser.json());
 // });
 app.use(express.static(__dirname + '/../build'));
 app.listen(3015, () => console.log('collin listening on port 3015!'));
+
